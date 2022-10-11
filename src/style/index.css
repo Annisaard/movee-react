@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* light mode  */
+.bg-light-mode {
+  background-color: #c7d4e4;
+}
+.text-blue {
+  color: #313b78;
+}
+.btn-load {
+  border: 1px solid #7b6ef6;
+}
+.btn-load:hover {
+  background-color: #313b78;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #121829;
+  background-repeat: repeat-x; */
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 500px;
+  background-color: #9b9b9b;
+}
+.bg-gradient-greenPink {
+  background: linear-gradient(102.38deg, #5a4af4 6.05%, #2f70aa 92.96%);
+  filter: blur(200px);
+}
+.bg-gradient-blueViolet {
+  background: linear-gradient(308.82deg, #04a574 2.36%, #8458a7 78.31%);
+  filter: blur(190px);
+}
+.bg-card {
+  background: rgba(45, 55, 84, 0.8);
+  box-shadow: 11px 15px 26px rgba(110, 106, 106, 0.269);
+}
+.text-abu-700 {
+  color: #767e94;
+}
+.text-yellow {
+  color: #ffad49;
+}
+.bg-card-detail {
+  background: rgba(32, 40, 62, 0.8);
+}
+.active {
+  background-color: #04a574;
+}
+.img-card {
+  background: linear-gradient(rgb(23, 23rgb (38, 38, 38)) 50%, #000 100%);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3 ease-out;
+}
+/* .img-card img {
+  transform: scale(1.2);
+ 
+} */
+.img-card:hover {
+  transform: scale(1.1) translateY(-20px);
+  opacity: 0.3;
+}
+
+.header {
+  position: fixed;
+  z-index: 30;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+}
+.header-bg {
+  background: rgba(18, 29, 47, 0.74);
+  /* box-shadow: 24px 24px 80px rgba(30, 30, 30, 0.71); */
+}
+
+/* ----------Toggle------------ */
+.toggle {
+  height: 30px;
+  width: 55px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-image: linear-gradient(aqua, skyblue);
+  position: relative;
+  cursor: pointer;
+}
+.toggle.night {
+  background-image: linear-gradient(midnightblue, rebeccapurple);
+}
+.notch {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  box-shadow: 0 0 5px yellow;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+.notch > .crater {
+  background: rgb(110, 81, 43);
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.381) inset;
+}
+.night .crater {
+  opacity: 0.8;
+}
+
+.crater:first-child {
+  left: 2px;
+  top: 4px;
+  height: 4px;
+  width: 12px;
+  transform: rotate(-45deg);
+}
+
+.night > .notch {
+  background: whitesmoke;
+  box-shadow: 0 0 5px whitesmoke;
+  transform: translate(25px, 0);
+}
+
+.shape {
+  position: absolute;
+  background: whitesmoke;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.shape.md {
+  height: 3px;
+  width: 20px;
+  top: 25%;
+  left: 25%;
+  z-index: 2;
+}
+.shape.lg {
+  height: 3.5px;
+  width: 30px;
+  bottom: 8px;
+  left: 17px;
+}
+.shape.sm {
+  height: 2px;
+  width: 8px;
+  left: 30px;
+  top: 12px;
+}
+.night .shape.sm {
+  height: 2px;
+  width: 2px;
+  transform: translate(-50px, 0);
+}
+
+.night .shape.sm:first-of-type {
+  transform: translate(-15px, -3px);
+}
+.night .shape.md {
+  height: 4px;
+  width: 4px;
+  transform: translate(10px, 0);
+  box-shadow: 0 0 5px whitesmoke;
+}
+.night .shape.lg {
+  height: 6px;
+  width: 6px;
+  transform: translate(-8px, 0);
+}
+.night .shape {
+  background: lightgray;
+  box-shadow: 0 0 10px 2px violet;
+}
+/* -----End Toggle---------- */
