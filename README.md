@@ -1,76 +1,51 @@
-<<<<<<< HEAD
-# mymovies-app-react
 
-link movee : https://movee-react-app.vercel.app/
-=======
-# Getting Started with Create React App
+# 📽️ Movee
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 🎯 About Project
+MOVEE movie application is an app where you will get information and list of now playing movies, popular, detail movie & list favorite movies page. The application content is powered bt TMDB API.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌎 Live Demo
+Here is a working live demo : https://movee-react-app.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🎨 Prototype
+<img width="960" alt="Screenshot 2022-11-28 181708" src="https://user-images.githubusercontent.com/59137289/204265203-6b82e83e-fda5-428d-8387-282bc57d954d.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Here is the link for the UI design : [Figma](https://www.figma.com/file/4L2xBxW57QDGNxPl2TgBOl/Movee?node-id=0%3A1&t=KjZM6ItRbHa7XVkP-1)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Capstone-Group3-Mentutor/Front-End.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npm start
+```
 
-### `npm run eject`
+## 💫Technologies
+Technologies i used to build this are ReactJS, CSS, Tailwind, Redux, React-router TMDB(The movie database) API
+- use redux to store favorite movies
+- Add dark mode feature to add more good user experience on your website
+- Use react-router-dom v6 to create new route for detail page
+- Use Functional Components & Hooks
+- Props to pass some data from component to component with ease.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features to be added
+- create tv show and movie pages.
+- added a similar movie on the detail page.
+- added movie trailers.
+- Making the code more cleaner and readable.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 2f76abd (added task1)
